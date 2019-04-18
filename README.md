@@ -1,5 +1,5 @@
 # Quarantine
 
-A survival, horor indie game. 
+A survival, horror indie game. 
 
 With pixels. Because I can't draw.
