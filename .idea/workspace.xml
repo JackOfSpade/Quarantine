@@ -22,96 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="1147" column="5" selection-start-line="1147" selection-start-column="5" selection-end-line="1147" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9446#9629#0" />
-                <element signature="e#9675#9676#0" expanded="true" />
-                <element signature="e#9713#9714#0" expanded="true" />
-                <element signature="e#9760#9761#0" expanded="true" />
-                <element signature="e#9790#9791#0" expanded="true" />
-                <element signature="e#9790#18215#0" />
-                <element signature="e#18221#18729#0" />
-                <element signature="e#42670#42970#0" />
-                <element signature="e#42976#43372#0" />
-                <element signature="e#43378#45880#0" />
-                <element signature="e#45059#45515#0" expanded="true" />
-                <element signature="e#45514#45515#0" expanded="true" />
-                <element signature="e#45886#46313#0" />
-                <element signature="e#46319#46725#0" />
-                <element signature="e#46731#47170#0" />
-                <element signature="e#47176#47224#0" />
-                <element signature="e#47230#47600#0" />
-                <element signature="e#47606#47782#0" />
-                <element signature="e#47788#47973#0" />
-                <element signature="e#47979#48389#0" />
-                <element signature="e#48395#48936#0" />
-                <element signature="e#48942#49436#0" />
-                <element signature="e#49442#50163#0" />
-                <element signature="e#50169#50642#0" />
-                <element signature="e#50648#51263#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+        <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="357">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-                <element signature="e#1027#1033#0" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#9537#9538#0" expanded="true" />
+                <element signature="e#9575#9576#0" expanded="true" />
+                <element signature="e#9608#9609#0" expanded="true" />
+                <element signature="e#9638#9639#0" expanded="true" />
+                <element signature="e#44925#45381#0" expanded="true" />
+                <element signature="e#45380#45381#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SlowZombie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zombie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FastZombie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -183,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/Deploy.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Quarantine.java" />
       </list>
     </option>
   </component>
@@ -204,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +145,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +186,10 @@
   </component>
   <component name="RunManager" selected="Applet.Main">
     <configuration name="Main" type="Applet">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="HEIGHT" value="750" />
+      <option name="MAIN_CLASS_NAME" value="Quarantine" />
       <module name="Quarantine" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="1200" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -446,11 +371,12 @@
       <workItem from="1502155260575" duration="2628000" />
       <workItem from="1555629815001" duration="2127000" />
       <workItem from="1555696288241" duration="4269000" />
+      <workItem from="1555704751349" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127471000" />
+    <option name="totallyTimeSpent" value="129021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,14 +397,14 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14089347" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.14295533" />
       <window_info id="Structure" order="7" weight="0.24963924" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.32502964" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978094" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.33273596" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3202847" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40319717" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32978094" />
@@ -544,7 +470,6 @@
     <entry file="file://$PROJECT_DIR$/src/Zombie.class" />
     <entry file="file://$PROJECT_DIR$/src/FastZombie.class" />
     <entry file="file://$PROJECT_DIR$/resources/background.jpeg" />
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/src/TimerToResetZombies.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeMap.java" />
     <entry file="file://$PROJECT_DIR$/src/Instructions.jpg" />
@@ -632,27 +557,14 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Component.java" />
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="238">
           <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FastZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -663,53 +575,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Zombie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="1147" column="5" selection-start-line="1147" selection-start-column="5" selection-end-line="1147" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9446#9629#0" />
-            <element signature="e#9675#9676#0" expanded="true" />
-            <element signature="e#9713#9714#0" expanded="true" />
-            <element signature="e#9760#9761#0" expanded="true" />
-            <element signature="e#9790#9791#0" expanded="true" />
-            <element signature="e#9790#18215#0" />
-            <element signature="e#18221#18729#0" />
-            <element signature="e#42670#42970#0" />
-            <element signature="e#42976#43372#0" />
-            <element signature="e#43378#45880#0" />
-            <element signature="e#45059#45515#0" expanded="true" />
-            <element signature="e#45514#45515#0" expanded="true" />
-            <element signature="e#45886#46313#0" />
-            <element signature="e#46319#46725#0" />
-            <element signature="e#46731#47170#0" />
-            <element signature="e#47176#47224#0" />
-            <element signature="e#47230#47600#0" />
-            <element signature="e#47606#47782#0" />
-            <element signature="e#47788#47973#0" />
-            <element signature="e#47979#48389#0" />
-            <element signature="e#48395#48936#0" />
-            <element signature="e#48942#49436#0" />
-            <element signature="e#49442#50163#0" />
-            <element signature="e#50169#50642#0" />
-            <element signature="e#50648#51263#0" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="8" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/FastZombie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="e#1027#1033#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#9537#9538#0" expanded="true" />
+            <element signature="e#9575#9576#0" expanded="true" />
+            <element signature="e#9608#9609#0" expanded="true" />
+            <element signature="e#9638#9639#0" expanded="true" />
+            <element signature="e#44925#45381#0" expanded="true" />
+            <element signature="e#45380#45381#0" expanded="true" />
           </folding>
         </state>
       </provider>

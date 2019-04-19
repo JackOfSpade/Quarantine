@@ -1,4 +1,6 @@
 import uk.co.caprica.vlcj.discovery.NativeDiscovery;
+
+import javax.crypto.Cipher;
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +16,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import static java.awt.Color.*;
 
-public class Main extends JApplet implements Runnable, KeyListener {
+public class Quarantine extends Frame implements Runnable, KeyListener {
     private int intFrame;
     private int intFrame2;
     private Thread tdAnimator;
@@ -62,27 +64,16 @@ public class Main extends JApplet implements Runnable, KeyListener {
     private long startingMilliseconds;
     private int currentPhase;
     private static final Map<Integer, Integer> phaseTimeMap = new TreeMap<Integer, Integer>();
-    private ImageIcon instructions = new ImageIcon(Main.class.getResource("Instructions.jpeg"));
-    private Image helicopterGif = Toolkit.getDefaultToolkit().getImage(Main.class.getResource("Helicopter.gif"));
+    private ImageIcon instructions = new ImageIcon(Quarantine.class.getResource("Instructions.jpeg"));
+    private Image helicopterGif = Toolkit.getDefaultToolkit().getImage(Quarantine.class.getResource("Helicopter.gif"));
     private Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
     private int xCoordinate = (int) (((dimension.getWidth() - this.getWidth()) / 2) - ((dimension.getWidth() - this.getWidth()) / 3));
     private int yCoordinate = (int) (((dimension.getHeight() - this.getHeight()) / 2) - ((dimension.getWidth() - this.getWidth()) / 4));
     private Window window = null;
 
-    @Override
-    public void init() {
-        Container c = this.getParent();
-        while (c.getParent()!=null) {
-            c = c.getParent();
-        }
-        if (c instanceof Window) {
-            window = (Window)c;
-        } else {
-            System.out.println(c);
-        }
-
-        window.setLocation(this.xCoordinate, this.yCoordinate);
-
+    public Quarantine()
+    {
+        /*
         new NativeDiscovery().discover();
         SwingUtilities.invokeLater(new Runnable() {
             @Override
@@ -98,18 +89,24 @@ public class Main extends JApplet implements Runnable, KeyListener {
         catch (InterruptedException e)
         {
             e.printStackTrace();
-        }
+        }*/
 
-        int input = JOptionPane.showOptionDialog(null, "", "   Instructions", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, this.instructions, null, null);
+        JOptionPane.showOptionDialog(null, "", "   Instructions", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, this.instructions, null, null);
 
-        String str = this.getParameter("fps");
-        int fps = str != null?Integer.parseInt(str):100;
-        this.intFrame = fps > 0?1000 / fps:50;
-        Container pane = this.getContentPane();
-        pane.setLayout((LayoutManager)null);
-        pane.setBackground(Color.black);
+        setSize(1200, 750);
+        setVisible(true);
+
+        Container container = new Container();
+        container.setLayout(null);
+        container.setBackground(Color.black);
         Arrays.fill(intRandom, 1);
         Arrays.fill(timerRunningArray, false);
+        add(container);
+        //String str = this.getParameter("fps");
+        String str = "30";
+        int fps = str != null?Integer.parseInt(str):100;
+        this.intFrame = fps > 0?1000 / fps:50;
+
 
         for(int x = 0; x < this.recLight.length; ++x) {
             this.recLight[x] = new Rectangle();
@@ -208,7 +205,6 @@ public class Main extends JApplet implements Runnable, KeyListener {
         start();
     }
 
-    @Override
     public void start() {
         setUpGameObjectLocations();
         this.requestFocus();
@@ -216,12 +212,10 @@ public class Main extends JApplet implements Runnable, KeyListener {
         this.tdAnimator.start();
     }
 
-    @Override
     public void stop() {
         this.tdAnimator = null;
     }
 
-    @Override
     public void destroy()
     {
         System.exit(0);
@@ -760,7 +754,7 @@ public class Main extends JApplet implements Runnable, KeyListener {
                 if(!this.bolOnce4)
                 {
                     this.bolOnce4 = true;
-                    File soundFile = new File(Main.class.getResource("Evac.wav").toURI());
+                    File soundFile = new File(Quarantine.class.getResource("Evac.wav").toURI());
                     AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
                     // Get a sound clip resource.
                     this.audioClip2 = AudioSystem.getClip();
@@ -809,7 +803,7 @@ public class Main extends JApplet implements Runnable, KeyListener {
                 if(!this.bolOnce3)
                 {
                     this.bolOnce3 = true;
-                    File soundFile = new File(Main.class.getResource("GetToDaChoppa.wav").toURI());
+                    File soundFile = new File(Quarantine.class.getResource("GetToDaChoppa.wav").toURI());
                     AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
                     // Get a sound clip resource.
                     this.audioClip2 = AudioSystem.getClip();
@@ -913,7 +907,7 @@ public class Main extends JApplet implements Runnable, KeyListener {
 
                 try {
                     // Open an audio input stream.
-                    File soundFile = new File(Main.class.getResource("ZombieAmbience.wav").toURI());
+                    File soundFile = new File(Quarantine.class.getResource("ZombieAmbience.wav").toURI());
                     AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
                     // Get a sound clip resource.
                     this.audioClip = AudioSystem.getClip();
@@ -1145,5 +1139,10 @@ public class Main extends JApplet implements Runnable, KeyListener {
         this.currentPhase=1;
 
         start();
+    }
+
+    public static void main(String[] args)
+    {
+
     }
 }
