@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+            <state relative-caret-position="389">
+              <caret line="154" column="34" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="34" />
               <folding>
                 <element signature="e#9537#9538#0" expanded="true" />
                 <element signature="e#9575#9576#0" expanded="true" />
@@ -34,7 +34,18 @@
                 <element signature="e#9638#9639#0" expanded="true" />
                 <element signature="e#44925#45381#0" expanded="true" />
                 <element signature="e#45380#45381#0" expanded="true" />
+                <element signature="e#51569#51570#0" expanded="true" />
+                <element signature="e#51600#51601#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RectangleAndZombiePair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -51,15 +62,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>retry</find>
-      <find>current</find>
       <find>currentphase</find>
       <find>instructi</find>
       <find>oh no</find>
       <find>&quot;</find>
       <find>load</find>
       <find>surr</find>
-      <find>survive</find>
       <find>survive again</find>
       <find>timemap</find>
       <find>food</find>
@@ -80,7 +88,10 @@
       <find>setintawa</find>
       <find>Japplet</find>
       <find>time</find>
+      <find>tm</find>
       <find>intFrame</find>
+      <find>survive</find>
+      <find>minute</find>
     </findStrings>
     <replaceStrings>
       <replace>currentRecZombie</replace>
@@ -340,12 +351,12 @@
       <workItem from="1502155260575" duration="2628000" />
       <workItem from="1555629815001" duration="2127000" />
       <workItem from="1555696288241" duration="4269000" />
-      <workItem from="1555704751349" duration="2041000" />
+      <workItem from="1555704751349" duration="3504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129512000" />
+    <option name="totallyTimeSpent" value="130975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,14 +377,14 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.14295533" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14295533" />
       <window_info id="Structure" order="7" weight="0.24963924" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.32502964" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978094" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.33273596" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40319717" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32978094" />
@@ -480,17 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RectangleAndZombiePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="method#RectangleAndZombiePair#0;class#RectangleAndZombiePair#0" />
-            <element signature="method#setRectangleBounds#0;class#RectangleAndZombiePair#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -558,10 +558,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RectangleAndZombiePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+        <state relative-caret-position="389">
+          <caret line="154" column="34" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="34" />
           <folding>
             <element signature="e#9537#9538#0" expanded="true" />
             <element signature="e#9575#9576#0" expanded="true" />
@@ -569,6 +576,8 @@
             <element signature="e#9638#9639#0" expanded="true" />
             <element signature="e#44925#45381#0" expanded="true" />
             <element signature="e#45380#45381#0" expanded="true" />
+            <element signature="e#51569#51570#0" expanded="true" />
+            <element signature="e#51600#51601#0" expanded="true" />
           </folding>
         </state>
       </provider>
