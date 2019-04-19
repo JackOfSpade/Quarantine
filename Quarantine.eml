@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Quarantine"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="jna-4.1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/resources/jna-4.1.0.jar!/"/>
+	</lib>
+	<lib name="jna-platform-4.1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/resources/jna-platform-4.1.0.jar!/"/>
+	</lib>
+	<lib name="slf4j-api-1.7.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/resources/slf4j-api-1.7.10.jar!/"/>
+	</lib>
+	<lib name="vlcj-3.10.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/resources/vlcj-3.10.1.jar!/"/>
+	</lib>
+</component>
