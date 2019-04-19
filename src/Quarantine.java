@@ -93,19 +93,14 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
         JOptionPane.showOptionDialog(null, "", "   Instructions", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, this.instructions, null, null);
 
-        setSize(1200, 750);
-        setVisible(true);
+        //String str = this.getParameter("fps");
+        //int fps = str != null?Integer.parseInt(str):100;
+        //this.intFrame = fps > 0?1000 / fps:50;
+        intFrame = 30;
 
-        Container container = new Container();
-        container.setLayout(null);
-        container.setBackground(Color.black);
         Arrays.fill(intRandom, 1);
         Arrays.fill(timerRunningArray, false);
-        add(container);
-        //String str = this.getParameter("fps");
-        String str = "30";
-        int fps = str != null?Integer.parseInt(str):100;
-        this.intFrame = fps > 0?1000 / fps:50;
+
 
 
         for(int x = 0; x < this.recLight.length; ++x) {
@@ -197,6 +192,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         this.addKeyListener(this);
         this.setSize(1200, 750);
         this.setBackground(Color.black);
+        this.setVisible(true);
+
 
         this.phaseTimeMap.put(0, 0);
         this.phaseTimeMap.put(1, 90000);
@@ -1143,6 +1140,6 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
     public static void main(String[] args)
     {
-
+        new Quarantine();
     }
 }

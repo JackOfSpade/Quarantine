@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="329">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
               <folding>
                 <element signature="e#9537#9538#0" expanded="true" />
                 <element signature="e#9575#9576#0" expanded="true" />
@@ -51,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ending</find>
       <find>retry</find>
       <find>current</find>
       <find>currentphase</find>
@@ -76,11 +75,12 @@
       <find>repaint</find>
       <find>update</find>
       <find>instruc</find>
-      <find>time</find>
       <find>new fast</find>
       <find>intaware</find>
       <find>setintawa</find>
       <find>Japplet</find>
+      <find>time</find>
+      <find>intFrame</find>
     </findStrings>
     <replaceStrings>
       <replace>currentRecZombie</replace>
@@ -184,16 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Main">
-    <configuration name="Main" type="Applet">
-      <option name="HEIGHT" value="750" />
-      <option name="MAIN_CLASS_NAME" value="Quarantine" />
-      <module name="Quarantine" />
-      <option name="WIDTH" value="1200" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Quarantine">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="750" />
       <option name="WIDTH" value="1200" />
@@ -201,18 +192,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MediaPlayer" />
+    <configuration name="Quarantine" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Quarantine" />
       <module name="Quarantine" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VLCJPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VLCJPlayer" />
-      <module name="Quarantine" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,9 +253,6 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Quarantine_jar/Quarantine.jar" />
       <option name="WORKING_DIRECTORY" value="C:\Users\super\Desktop\GitHub\Quarantine" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quarantine/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
@@ -338,19 +317,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Applet.Main" />
-      <item itemvalue="Application.MediaPlayer" />
-      <item itemvalue="Application.VLCJPlayer" />
+      <item itemvalue="Application.Quarantine" />
       <item itemvalue="JAR Application.Quarantine" />
-      <item itemvalue="JavaScript Debug.index.html" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Application.VLCJPlayer" />
-        <item itemvalue="Application.MediaPlayer" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -371,12 +340,12 @@
       <workItem from="1502155260575" duration="2628000" />
       <workItem from="1555629815001" duration="2127000" />
       <workItem from="1555696288241" duration="4269000" />
-      <workItem from="1555704751349" duration="1550000" />
+      <workItem from="1555704751349" duration="2041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129021000" />
+    <option name="totallyTimeSpent" value="129512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="329">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
           <folding>
             <element signature="e#9537#9538#0" expanded="true" />
             <element signature="e#9575#9576#0" expanded="true" />
