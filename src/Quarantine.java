@@ -188,6 +188,15 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         zombieStartingLocationsMap.put(48, new int[]{875, 600, 10, 10});
         zombieStartingLocationsMap.put(49, new int[]{1050, 630, 10, 10});
 
+        //offset Original starting locations
+        int[] intTempArray;
+        for(Map.Entry<Integer, int[]> entry : zombieStartingLocationsMap.entrySet())
+        {
+            intTempArray = entry.getValue();
+            intTempArray[1]=intTempArray[1] + 63; 
+            zombieStartingLocationsMap.put(entry.getKey(), intTempArray);
+        }
+
         this.requestFocus();
         this.addKeyListener(this);
         //ADD OFFSET 63 TO HEIGHT
@@ -226,6 +235,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         this.recLight[1].setBounds(400, 50, 5, 5);
         this.recLight[2].setBounds(725, 675, 5, 5);
         this.recLight[3].setBounds(1100, 350, 5, 5);
+        offset(recLight, 63);
+
 
         for(int x = 0; x<rectangleAndZombiePairArray.length;x++)
         {
@@ -303,6 +314,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         this.recBuilding[70].setBounds(1125, 100, 25, 25);
         this.recBuilding[71].setBounds(1175, 100, 25, 200);
         this.recBuilding[72].setBounds(1150, 275, 25, 25);
+        offset(recBuilding, 63);
 
         this.recAccess[0].setBounds(75, 50, 25, 25);
         this.recAccess[1].setBounds(50, 100, 25, 25);
@@ -366,16 +378,37 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         this.recAccess[54].setBounds(1150, 100, 25, 25);
         this.recAccess[56].setBounds(1125, 125, 50, 150);
         this.recAccess[57].setBounds(1125, 275, 25, 25);
+        offset(recAccess, 63);
 
         this.recPlayer.setBounds(450, 300, 10, 10);
+        offset(recAccess, 63);
 
         this.recHelicopter.setBounds(460, 370,8,30);
+        offset(recHelicopter, 63);
 
         this.recWater.setBounds(350, 550, 8, 8);
+        offset(recWater, 63);
 
         this.recFood.setBounds(1000, 578, 8, 8);
+        offset(recFood, 63);
 
         this.recBed.setBounds(350, 150, 15, 30);
+        offset(recBed, 63);
+    }
+
+    //offset rectangles Y-value
+    public void offset(Rectangle[] rectangle, int offset)
+    {
+        for(int x = 0; x < rectangle.length; x++)
+        {
+            rectangle[x].setLocation((int) rectangle[x].getX(), (int) rectangle[x].getY() + offset);
+        }
+    }
+
+    //Overload: offset rectangles Y-value
+    public void offset(Rectangle rectangle, int offset)
+    {
+        rectangle.setLocation((int) rectangle.getX(), (int) rectangle.getY() + offset);
     }
 
     public void run() {
@@ -650,7 +683,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
                 {
                     this.bolDead = true;
                     this.bolOnce = true;
-                    int retry = JOptionPane.showConfirmDialog((Component)null, "   A zombie has chewed off your head!\n\n   Survive again?", "  Oh no!", 0, JOptionPane.PLAIN_MESSAGE, null);
+                    int retry = JOptionPane.showConfirmDialog((Component)null, "   You've been infected!\n\n   Survive again?", "  Oh no!", 0, JOptionPane.PLAIN_MESSAGE, null);
 
                     if(retry == 0)
                     {
@@ -1066,7 +1099,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
     public void PlayerIntersectionCheck() {
         for(int y = 0; y < this.recBuilding.length; ++y) {
-            if(this.IntersectionCheck(this.recPlayer, this.recBuilding[y]) || this.recPlayer.getX() >= 1191.0D || this.recPlayer.getX() <= 0.0D || this.recPlayer.getY() <= 0.0D || this.recPlayer.getY() >= 741.0D) {
+            if(this.IntersectionCheck(this.recPlayer, this.recBuilding[y]) || this.recPlayer.getX() >= 1200.0D || this.recPlayer.getX() <= 17.0D || this.recPlayer.getY() <= 63.0D || this.recPlayer.getY() >= 863.0D) {
                 this.recPlayer.setLocation(this.intX, this.intY);
             }
         }
