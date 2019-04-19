@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Quarantine:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5928a7e3-471d-45be-b700-f4895c62096d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -10,27 +15,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Quarantine\exportToHTML" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="368">
+              <caret line="1147" column="5" selection-start-line="1147" selection-start-column="5" selection-end-line="1147" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2518#2536#0" expanded="true" />
                 <element signature="e#9446#9629#0" />
+                <element signature="e#9675#9676#0" expanded="true" />
+                <element signature="e#9713#9714#0" expanded="true" />
+                <element signature="e#9760#9761#0" expanded="true" />
+                <element signature="e#9790#9791#0" expanded="true" />
                 <element signature="e#9790#18215#0" />
                 <element signature="e#18221#18729#0" />
                 <element signature="e#42670#42970#0" />
                 <element signature="e#42976#43372#0" />
                 <element signature="e#43378#45880#0" />
-                <element signature="e#45052#45508#0" expanded="true" />
-                <element signature="e#45507#45508#0" expanded="true" />
+                <element signature="e#45059#45515#0" expanded="true" />
+                <element signature="e#45514#45515#0" expanded="true" />
                 <element signature="e#45886#46313#0" />
                 <element signature="e#46319#46725#0" />
                 <element signature="e#46731#47170#0" />
@@ -44,6 +54,24 @@
                 <element signature="e#49442#50163#0" />
                 <element signature="e#50169#50642#0" />
                 <element signature="e#50648#51263#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#1027#1033#0" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,12 +122,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>intro</find>
       <find>ending</find>
       <find>retry</find>
       <find>current</find>
@@ -129,6 +157,7 @@
       <find>new fast</find>
       <find>intaware</find>
       <find>setintawa</find>
+      <find>Japplet</find>
     </findStrings>
     <replaceStrings>
       <replace>currentRecZombie</replace>
@@ -142,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/TimerToResetZombies.java" />
         <option value="$PROJECT_DIR$/src/RectangleAndZombiePair.java" />
         <option value="$PROJECT_DIR$/src/VideoPlayer.java" />
@@ -152,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/Zombie.java" />
         <option value="$PROJECT_DIR$/src/SlowZombie.java" />
         <option value="$PROJECT_DIR$/src/FastZombie.java" />
+        <option value="$PROJECT_DIR$/src/Deploy.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -163,9 +193,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
-    <option name="y" value="-14" />
+    <option name="y" value="168" />
     <option name="width" value="3026" />
     <option name="height" value="1946" />
   </component>
@@ -174,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,13 +221,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Quarantine_jar/Quarantine.jar" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -230,7 +261,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Applet.Main">
-    <configuration name="Main" type="Applet" temporary="true">
+    <configuration name="Main" type="Applet">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Quarantine" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -239,7 +270,8 @@
       </method>
     </configuration>
     <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="HEIGHT" value="750" />
+      <option name="WIDTH" value="1200" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,7 +342,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quarantine/index.html">
+    <configuration name="Quarantine" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Quarantine_jar/Quarantine.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\super\Desktop\GitHub\Quarantine" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quarantine/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
@@ -378,14 +416,14 @@
       <item itemvalue="Applet.Main" />
       <item itemvalue="Application.MediaPlayer" />
       <item itemvalue="Application.VLCJPlayer" />
+      <item itemvalue="JAR Application.Quarantine" />
       <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.Main" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.VLCJPlayer" />
         <item itemvalue="Application.MediaPlayer" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -407,11 +445,12 @@
       <workItem from="1502154654951" duration="436000" />
       <workItem from="1502155260575" duration="2628000" />
       <workItem from="1555629815001" duration="2127000" />
+      <workItem from="1555696288241" duration="4269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123202000" />
+    <option name="totallyTimeSpent" value="127471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +462,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1513" height="973" extended-state="0" />
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -431,10 +471,8 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.13883162" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14089347" />
       <window_info id="Structure" order="7" weight="0.24963924" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.32502964" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978094" />
@@ -447,7 +485,8 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32978094" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49965635" weight="0.32502964" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="right" id="Properties" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -458,6 +497,7 @@
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Capture Tool" order="0" />
@@ -592,21 +632,55 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Component.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2518#2536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FastZombie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zombie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SlowZombie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="1147" column="5" selection-start-line="1147" selection-start-column="5" selection-end-line="1147" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#9446#9629#0" />
+            <element signature="e#9675#9676#0" expanded="true" />
+            <element signature="e#9713#9714#0" expanded="true" />
+            <element signature="e#9760#9761#0" expanded="true" />
+            <element signature="e#9790#9791#0" expanded="true" />
             <element signature="e#9790#18215#0" />
             <element signature="e#18221#18729#0" />
             <element signature="e#42670#42970#0" />
             <element signature="e#42976#43372#0" />
             <element signature="e#43378#45880#0" />
-            <element signature="e#45052#45508#0" expanded="true" />
-            <element signature="e#45507#45508#0" expanded="true" />
+            <element signature="e#45059#45515#0" expanded="true" />
+            <element signature="e#45514#45515#0" expanded="true" />
             <element signature="e#45886#46313#0" />
             <element signature="e#46319#46725#0" />
             <element signature="e#46731#47170#0" />
@@ -624,34 +698,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        <state relative-caret-position="408">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#1027#1033#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SlowZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FastZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -666,6 +725,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -713,7 +773,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
