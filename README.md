@@ -2,4 +2,4 @@
 
 A pixelated survival, horror indie game. 
 
-Requires JDK 8 to run.
+Requires JDK 8 to run because it uses JApplet.
