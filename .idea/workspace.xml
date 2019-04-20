@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="736" column="30" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
+              <caret line="736" column="30" lean-forward="true" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="2458" />
     <option name="height" value="1932" />
@@ -345,12 +345,12 @@
       <workItem from="1555629815001" duration="2127000" />
       <workItem from="1555696288241" duration="4269000" />
       <workItem from="1555704751349" duration="15417000" />
-      <workItem from="1555724425864" duration="485000" />
+      <workItem from="1555724425864" duration="1112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143373000" />
+    <option name="totallyTimeSpent" value="144000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +363,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -373,18 +372,18 @@
       <window_info id="Nl-Palette" order="5" />
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.209622" />
       <window_info id="Structure" order="7" weight="0.24963924" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5353952" side_tool="true" visible="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.53608245" side_tool="true" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978094" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.33273596" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.46460482" visible="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.46391752" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40319717" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32978094" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32978094" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.46391752" weight="0.32502964" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.46323025" weight="0.32502964" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" />
@@ -553,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="736" column="30" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
+          <caret line="736" column="30" lean-forward="true" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
         </state>
       </provider>
     </entry>
