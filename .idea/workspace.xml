@@ -25,18 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="735" column="22" selection-start-line="735" selection-start-column="22" selection-end-line="735" selection-end-column="22" />
-              <folding>
-                <element signature="e#9537#9538#0" expanded="true" />
-                <element signature="e#9575#9576#0" expanded="true" />
-                <element signature="e#9608#9609#0" expanded="true" />
-                <element signature="e#9638#9639#0" expanded="true" />
-                <element signature="e#46585#47041#0" expanded="true" />
-                <element signature="e#47040#47041#0" expanded="true" />
-                <element signature="e#51569#51570#0" expanded="true" />
-                <element signature="e#51600#51601#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="736" column="30" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="136">
               <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,7 +121,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="2458" />
     <option name="height" value="1932" />
@@ -141,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,8 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,11 +345,12 @@
       <workItem from="1555629815001" duration="2127000" />
       <workItem from="1555696288241" duration="4269000" />
       <workItem from="1555704751349" duration="15417000" />
+      <workItem from="1555724425864" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142888000" />
+    <option name="totallyTimeSpent" value="143373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,6 +363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -379,20 +371,20 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20687285" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.209622" />
       <window_info id="Structure" order="7" weight="0.24963924" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5347079" side_tool="true" visible="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5353952" side_tool="true" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32978094" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.33273596" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4652921" weight="0.3202847" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.46460482" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40319717" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32978094" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32978094" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.46460482" weight="0.32502964" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.46391752" weight="0.32502964" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" />
@@ -557,36 +549,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FpsCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/FpsCounter.java" />
+    <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="736" column="30" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VLCJPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="136">
           <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quarantine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="735" column="22" selection-start-line="735" selection-start-column="22" selection-end-line="735" selection-end-column="22" />
-          <folding>
-            <element signature="e#9537#9538#0" expanded="true" />
-            <element signature="e#9575#9576#0" expanded="true" />
-            <element signature="e#9608#9609#0" expanded="true" />
-            <element signature="e#9638#9639#0" expanded="true" />
-            <element signature="e#46585#47041#0" expanded="true" />
-            <element signature="e#47040#47041#0" expanded="true" />
-            <element signature="e#51569#51570#0" expanded="true" />
-            <element signature="e#51600#51601#0" expanded="true" />
           </folding>
         </state>
       </provider>
