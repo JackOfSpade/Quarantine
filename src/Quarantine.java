@@ -93,9 +93,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
         JOptionPane.showOptionDialog(null, "", "   Instructions", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, this.instructions, null, null);
 
-        String str = this.getParameter("fps");
-        int fps = str != null?Integer.parseInt(str):100;
-        this.intFrame = fps > 0?1000 / fps:50;
+        int fps = 60;
+        this.intFrame = 1000 / fps;
 
         Arrays.fill(intRandom, 1);
         Arrays.fill(timerRunningArray, false);
@@ -484,9 +483,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         {
             this.bolWin = true;
             this.bolOnce = true;
-            this.recPlayer.setLocation(500, -2000);
-
-            this.setVisible(false);
+            this.recPlayer.setLocation(-9999, -9999);
+            currentPhase = 4;
 
             new NativeDiscovery().discover();
             SwingUtilities.invokeLater(new Runnable() {
@@ -495,6 +493,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
                     new VLCJPlayer("https://dl.dropboxusercontent.com/s/cnww1rxlny9tz4j/EndingVideo.mp4", xCoordinate, yCoordinate, 1);
                 }
             });
+
+            this.setVisible(false);
         }
 
         if(this.IntersectionCheck(this.recPlayer, this.recWater)) {
@@ -506,7 +506,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
             do
             {
-                this.recWater.setLocation((int)Math.round(Math.random() * 1180.0D), (int)Math.round(Math.random()) * 650);
+                this.recWater.setLocation((int)Math.round(Math.random() * 1185.0D), (int)Math.round(Math.random()* 735.0D));
             }
             while(this.ArrayIntersectionCheck(this.recWater, this.recBuilding));
         }
@@ -519,7 +519,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
             }
 
             do {
-                this.recFood.setLocation((int)Math.round(Math.random() * 1180.0D), (int)Math.round(Math.random()) * 650);
+                this.recFood.setLocation((int)Math.round(Math.random() * 1185.0D), (int)Math.round(Math.random() * 735.0D));
             } while(this.ArrayIntersectionCheck(this.recFood, this.recBuilding));
         }
 
@@ -531,7 +531,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
             }
 
             do {
-                this.recBed.setLocation((int)Math.round(Math.random() * 1180.0D), (int)Math.round(Math.random()) * 650);
+                this.recBed.setLocation((int)Math.round(Math.random() * 1185.0D), (int)Math.round(Math.random() * 735.0D));
             } while(this.ArrayIntersectionCheck(this.recBed, this.recBuilding));
         }
 
@@ -733,7 +733,8 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         g.drawRect((int)this.recBed.getX(), (int)this.recBed.getY(), (int)this.recBed.getWidth(), (int)this.recBed.getHeight());
         g.fillRect((int)this.recBed.getX(), (int)this.recBed.getY(), (int)this.recBed.getWidth(), (int)this.recBed.getHeight());
         g.setColor(Color.white);
-        if(this.intFrame2 % 60 == 0 && !this.bolDead) {
+        //Difficulty: Optimal 42
+        if(this.intFrame2 % 42 == 0 && !this.bolDead) {
             this.intWater--;
             this.intFood--;
             this.intBed--;
@@ -798,26 +799,26 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
                 if(second>=10)
                 {
-                    g.drawString("Evac arrives in " + minute + ":" + second, 550, 22);
+                    g.drawString("Evac arrives in " + minute + ":" + second, 550, 52);
                 }
                 else
                 {
-                    g.drawString("Evac arrives in " + minute + ":0" + second, 550, 22);
+                    g.drawString("Evac arrives in " + minute + ":0" + second, 550, 52);
                 }
 
                 g.setColor(white);
-                g.drawString("Water: ", 550, 44);
+                g.drawString("Water: ", 550, 74);
                 g.setColor(cyan);
-                g.fillRect(620, 34, this.intWater, 10);
+                g.fillRect(620, 64, this.intWater, 10);
 
                 g.setColor(white);
-                g.drawString("Food: ", 550, 66);
+                g.drawString("Food: ", 550, 96);
                 g.setColor(orange);
-                g.fillRect(620, 56, this.intFood, 10);
+                g.fillRect(620, 86, this.intFood, 10);
 
                 g.setColor(white);
-                g.drawString("Sleep: ", 550, 88);
-                g.fillRect(620, 78, this.intBed, 10);
+                g.drawString("Sleep: ", 550, 118);
+                g.fillRect(620, 108, this.intBed, 10);
             }
             else if(this.currentPhase == 2 && (minute <= 0 || second <= 0))
             {
@@ -828,7 +829,7 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
             if(this.currentPhase == 3)
             {
                 g.setFont(new Font("TimesRoman", Font.BOLD, 36));
-                g.drawString("GET TO THE CHOPPER!", 520, 40);
+                g.drawString("GET TO THE CHOPPER!", 520, 70);
 
                 if(!this.bolOnce3)
                 {
@@ -842,15 +843,25 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
                     this.audioClip2.start();
                 }
 
-                this.intWater = 100;
-                this.intFood = 100;
-                this.intBed = 100;
+                this.intWater = 9999;
+                this.intFood = 9999;
+                this.intBed = 9999;
+            }
+
+            if(this.currentPhase == 4)
+            {
+                g.setFont(new Font("TimesRoman", Font.BOLD, 36));
+                g.drawString("Wait for Chopper to Take Off...", 520, 70);
+
+                this.intWater = 9999;
+                this.intFood = 9999;
+                this.intBed = 9999;
             }
         }
 
         if(this.currentPhase == 3 && this.bolWin==false)
         {
-            g.drawImage(this.helicopterGif,400, 300,null);
+            g.drawImage(this.helicopterGif,400, 330,null);
         }
 
 
