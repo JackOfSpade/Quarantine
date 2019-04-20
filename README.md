@@ -1,5 +1,8 @@
 # Quarantine
 
-A pixelated survival, horror indie game. 
+A pixelated survival, horror game. 
 
-Requires JDK 8 to run because it uses JApplet.
+![alt text](https://i.imgur.com/kTcOwDa.png)
+
+
+Originally created with JApplet for deployment on the web, but has since been converted into a regular Java Application due to the deprecation of JApplet across all browsers.
