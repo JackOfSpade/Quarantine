@@ -73,23 +73,22 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
     public Quarantine()
     {
-        /*
-        new NativeDiscovery().discover();
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new VLCJPlayer("https://dl.dropboxusercontent.com/s/uf5eyrpffbu3knp/IntroVideo.mp4", xCoordinate, yCoordinate, 0);
-            }
-        });
+//        new NativeDiscovery().discover();
+//        SwingUtilities.invokeLater(new Runnable() {
+//            @Override
+//            public void run() {
+//                new VLCJPlayer("https://dl.dropboxusercontent.com/s/uf5eyrpffbu3knp/IntroVideo.mp4", xCoordinate, yCoordinate, 0);
+//            }
+//        });
 
-        try
-        {
-            Thread.sleep(53565);
-        }
-        catch (InterruptedException e)
-        {
-            e.printStackTrace();
-        }*/
+//        try
+//        {
+//            Thread.sleep(53565);
+//        }
+//        catch (InterruptedException e)
+//        {
+//            e.printStackTrace();
+//        }
 
         JOptionPane.showOptionDialog(null, "", "   Instructions", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, this.instructions, null, null);
 
@@ -946,24 +945,24 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
                 this.startingMilliseconds = System.currentTimeMillis();
                 this.currentPhase = 1;
 
-                try {
-                    // Open an audio input stream.
-                    File soundFile = new File(Quarantine.class.getResource("ZombieAmbience.wav").toURI());
-                    AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
-                    // Get a sound clip resource.
-                    this.audioClip = AudioSystem.getClip();
-                    // Open audio clip and load samples from the audio input stream.
-                    this.audioClip.open(audioIn);
-                    this.audioClip.loop(Clip.LOOP_CONTINUOUSLY);
-                } catch (UnsupportedAudioFileException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (LineUnavailableException e) {
-                    e.printStackTrace();
-                } catch (URISyntaxException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    // Open an audio input stream.
+//                    File soundFile = new File(Quarantine.class.getResource("ZombieAmbience.wav").toURI());
+//                    AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
+//                    // Get a sound clip resource.
+//                    this.audioClip = AudioSystem.getClip();
+//                    // Open audio clip and load samples from the audio input stream.
+//                    this.audioClip.open(audioIn);
+//                    this.audioClip.loop(Clip.LOOP_CONTINUOUSLY);
+//                } catch (UnsupportedAudioFileException e) {
+//                    e.printStackTrace();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                } catch (LineUnavailableException e) {
+//                    e.printStackTrace();
+//                } catch (URISyntaxException e) {
+//                    e.printStackTrace();
+//                }
             }
 
             start();
