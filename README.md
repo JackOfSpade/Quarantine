@@ -1,7 +1,3 @@
-# Quarantine
-
-A pixelated survival, horror game. 
-
 ![alt text](https://i.imgur.com/kTcOwDa.png)
 
 
