@@ -1,5 +1,3 @@
-A pixelated survival game.
-
 ![](https://i.imgur.com/5WtYR9A.jpg)
 
 ![](https://i.imgur.com/nF5eDPe.png)
