@@ -1,6 +1,6 @@
 A pixelated survival game.
 
-![](https://media.giphy.com/media/dAdEbb4tdOAAPydR5t/giphy.gif)
+![](https://i.imgur.com/5WtYR9A.jpg)
 
 ![](https://i.imgur.com/nF5eDPe.png)
 
