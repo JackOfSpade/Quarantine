@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compile-and-package:
+    name: Compile and package (JDK ${{ matrix.java }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [11, 17, 21]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+      - name: Compile sources against bundled libraries
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/classes
+          find src -name '*.java' -print0 | xargs -0 javac -cp 'resources/*' -d build/classes
+      - name: Build executable compatibility package
+        shell: bash
+        run: |
+          set -euo pipefail
+          find resources -maxdepth 1 -type f ! -name '*.jar' -exec cp {} build/classes/ \;
+          for dependency in resources/*.jar; do
+            (cd build/classes && jar xf "../../$dependency")
+          done
+          jar --create --file build/Quarantine.jar --manifest src/META-INF/MANIFEST.MF -C build/classes .
+          jar tf build/Quarantine.jar | grep -qx 'Quarantine.class'
+          jar tf build/Quarantine.jar | grep -qx 'Instructions.jpeg'
