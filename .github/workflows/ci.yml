@@ -43,6 +43,8 @@ jobs:
           for dependency in resources/*.jar; do
             (cd build/classes && jar xf "../../$dependency")
           done
+          find build/classes/META-INF -type f \( -name '*.SF' -o -name '*.RSA' -o -name '*.DSA' \) -delete 2>/dev/null || true
           jar --create --file build/Quarantine.jar --manifest src/META-INF/MANIFEST.MF -C build/classes .
           jar tf build/Quarantine.jar | grep -qx 'Quarantine.class'
           jar tf build/Quarantine.jar | grep -qx 'Instructions.jpeg'
+          unzip -p build/Quarantine.jar META-INF/MANIFEST.MF | tr -d '\r' | grep -Fx 'Main-Class: Quarantine'

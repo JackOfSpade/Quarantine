@@ -32,5 +32,5 @@ jobs:
           languages: java-kotlin
           build-mode: manual
       - name: Compile sources
-        run: find src -name '*.java' -print0 | xargs -0 javac -cp 'resources/*' -d build/classes
+        run: mkdir -p build/classes && find src -name '*.java' -print0 | xargs -0 javac -cp 'resources/*' -d build/classes
       - uses: github/codeql-action/analyze@v4
