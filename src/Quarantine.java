@@ -1114,19 +1114,19 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
 
     }
 
-    public boolean IntersectionCheck(Rectangle rec1, Rectangle rec2) {
+    public static boolean IntersectionCheck(Rectangle rec1, Rectangle rec2) {
         double[] dblCoordinate1 = new double[]{rec1.getX() + rec1.getWidth() / 2.0D, rec1.getY() + rec1.getHeight() / 2.0D};
         double[] dblCoordinate2 = new double[]{rec2.getX() + rec2.getWidth() / 2.0D, rec2.getY() + rec2.getHeight() / 2.0D};
         return Math.abs(dblCoordinate1[0] - dblCoordinate2[0]) <= rec1.getWidth() / 2.0D + rec2.getWidth() / 2.0D && Math.abs(dblCoordinate1[1] - dblCoordinate2[1]) <= rec1.getHeight() / 2.0D + rec2.getHeight() / 2.0D;
     }
 
-    public boolean ChaseCheck(Rectangle rec1, Rectangle rec2, int intAwareness) {
+    public static boolean ChaseCheck(Rectangle rec1, Rectangle rec2, int intAwareness) {
         double[] dblCoordinate1 = new double[]{rec1.getX() + rec1.getWidth() / 2.0D, rec1.getY() + rec1.getHeight() / 2.0D};
         double[] dblCoordinate2 = new double[]{rec2.getX() + rec2.getWidth() / 2.0D, rec2.getY() + rec2.getHeight() / 2.0D};
         return Math.sqrt(Math.pow(dblCoordinate1[0] - dblCoordinate2[0], 2.0D) + Math.pow(dblCoordinate1[1] - dblCoordinate2[1], 2.0D)) <= (double)intAwareness;
     }
 
-    public boolean ArrayIntersectionCheck(Rectangle rec, Rectangle[] recArray) {
+    public static boolean ArrayIntersectionCheck(Rectangle rec, Rectangle[] recArray) {
         double[] dblCoordinate1 = new double[]{rec.getX() + rec.getWidth() / 2.0D, rec.getY() + rec.getHeight() / 2.0D};
 
         for(int x = 0; x < recArray.length; ++x) {
@@ -1139,13 +1139,13 @@ public class Quarantine extends Frame implements Runnable, KeyListener {
         return false;
     }
 
-    public boolean PlayerVisibilityCheck(Rectangle rec1, Rectangle rec2) {
+    public static boolean PlayerVisibilityCheck(Rectangle rec1, Rectangle rec2) {
         double[] dblCoordinate1 = new double[]{rec1.getX() + rec1.getWidth() / 2.0D, rec1.getY() + rec1.getHeight() / 2.0D};
         double[] dblCoordinate2 = new double[]{rec2.getX() + rec2.getWidth() / 2.0D, rec2.getY() + rec2.getHeight() / 2.0D};
         return Math.sqrt(Math.pow(dblCoordinate1[0] - dblCoordinate2[0], 2.0D) + Math.pow(dblCoordinate1[1] - dblCoordinate2[1], 2.0D)) <= 120.0D;
     }
 
-    public boolean LightVisibilityCheck(Rectangle[] rec1, Rectangle rec2) {
+    public static boolean LightVisibilityCheck(Rectangle[] rec1, Rectangle rec2) {
         double[] dblCoordinate2 = new double[]{rec2.getX() + rec2.getWidth() / 2.0D, rec2.getY() + rec2.getHeight() / 2.0D};
 
         for(int x = 0; x < rec1.length; ++x) {
