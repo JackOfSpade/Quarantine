@@ -1,0 +1,2 @@
+# Git Bash must receive LF scripts on the Windows CI runner too.
+*.sh text eol=lf
